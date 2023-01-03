@@ -1,0 +1,46 @@
+body{
+    background: lightgray;
+}
+
+.tituloprincipal{
+    font-size: 30px;
+    font-weight: bold;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 30px auto;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+.copyright{ /*pagina de simbolo unicode*/
+    color: white;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+footer{
+    text-align: center;
+    background: black;
+}

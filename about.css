@@ -1,0 +1,75 @@
+body{
+    background: lightgray;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 30px auto;
+}
+
+.tituloprincipal{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+.bloco1{
+    width: 940px;
+    position: relative;
+    margin: 50px auto;
+}
+.foto{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+    border-left: 10px solid darkgray;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bloco1 p{
+    font-size: 20px;
+}
+
+.bloco2 {
+    width: 600px;
+    margin: 0 left;
+}
+
+.copyright{ /*pagina de simbolo unicode*/
+    color: white;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+footer{
+    text-align: center;
+    background: black;
+}
