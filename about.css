@@ -1,5 +1,6 @@
 body{
-    background: lightgray;
+    background: linear-gradient(#65789b, #3e4a61, #1a2639);
+    font-family: 'Source Code Pro', monospace;
 }
 
 .caixa{
@@ -10,7 +11,10 @@ body{
 
 .tituloprincipal{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
 }
 
 nav{
@@ -32,36 +36,48 @@ nav a{
 }
 
 nav a:hover{
-    color: orange;
+    color: lightgreen;
 }
 
-.bloco1{
+.bloco{
     width: 940px;
     position: relative;
     margin: 50px auto;
 }
 .foto{
-    position: absolute;
-    right: 0;
+    float: right;
     top: 0;
     width: 25%;
-    border-left: 10px solid darkgray;
+    border-left: 10px solid lightgreen;
     border-radius: 10px;
+    margin: 0 0 0 30px;
+    transition: 400ms;
+}
+
+.foto:hover{
+    opacity: 0.4;
 }
 
 h2{
-    font-size: 40px;
+    color: lightgreen;
+    font-size: 3em;
     font-weight: bold;
+    margin-bottom: 1em;
 }
 
-.bloco1 p{
-    font-size: 20px;
+.objetivos h2{
+    margin-top: 3em;
 }
 
-.bloco2 {
-    width: 600px;
-    margin: 0 left;
+.bloco p{
+    color: white;
+    font-size: 1em;
+    margin-bottom: 1em;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
 }
+
 
 .copyright{ /*pagina de simbolo unicode*/
     color: white;

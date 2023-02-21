@@ -1,17 +1,19 @@
-
-
 body{
-    background: lightgray;
+    background: linear-gradient(#65789b, #3e4a61, #1a2639);
+    font-family: 'Source Code Pro', monospace;
 }
 
 .tituloprincipal{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
 }
 .caixa{
     position: relative;
     width: 940px;
-    margin: 30px auto;
+    margin: 30px auto 50px auto;
 }
 
 nav{
@@ -33,7 +35,7 @@ nav a{
 }
 
 nav a:hover{
-    color: orange;
+    color: lightgreen;
 }
 
 main {
@@ -52,34 +54,55 @@ main {
     text-align: center;
     width: 200px;
     vertical-align: top;
-    margin: 50px;
+    margin: 0px 50px 50px 50px;
     padding: 30px;
     box-sizing: border-box;
     border: 4px solid black;
     border-radius: 20px;
-    color: black;
+    color: white;
+    transition: 400ms;
+}
+
+.contatos li:hover{
+    border-color: lightgreen;
+}
+
+.contatos li:hover :not(p){
+    opacity: 0.5;
 }
 
 .contatos p{
-    font-size: 10px;
-    text-align: center;
+    font-size: 11px;
+    display: none;
+    color: white;
 }
 
-.contatos li:hover {
-    border-color: orange;
+
+.contatos li:hover p{
+    display: contents;
 }
 
-.github, .email, .linkedin{
-    width: 50%;
+.github, .linkedin{
+    width: 60%;
     vertical-align: center;
+    margin: 1em;
 }
 
-h2 {
+.email{
+    width: 70%;
+    vertical-align: center;
+    margin: 1em;
+}
+
+
+.deixarmsg h2 {
+    color: lightgreen;
     font-size: 22px;
     font-weight: bold;
 }
 
 form label, form legend {
+    color: white;
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -111,7 +134,11 @@ form textarea{
 
 .retorno{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.retorno select{
+    width: 20%;
 }
 
 .enviar{
